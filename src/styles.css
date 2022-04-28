@@ -9,13 +9,17 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 }
 
 .default-orange {
-  background-color: rgb(252, 184, 59);
+  background-color: #FCA311;
 }
 
 .default-white {
-  background-color: #FFF;
+  background-color: #FFFFFF;
 }
 
 .default-gray {
-  background-color: #D3D3D3;
+  background-color: #E5E5E5;
+}
+
+.default-blue {
+  background-color: #14213D;
 }

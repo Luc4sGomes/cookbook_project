@@ -6,7 +6,6 @@
 .nav-bar {
   width: 18rem;
   height: 100;
-  background-color: #FFF;
 }
 
 .keep-buttons {
@@ -14,4 +13,12 @@
   align-items: center;
   justify-content: space-around;
   margin-top: 18px;
+}
+
+.list {
+  color: black;
+}
+
+.mat-sort-header-container {
+  align-items: center;
 }

@@ -9,6 +9,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatButtonModule } from '@angular/material/button';
+import { MatSortModule } from '@angular/material/sort';
 
 import { HeaderComponent } from '../app/components/header/header.component';
 import { NavComponent } from './components/nav/nav.component'
@@ -26,7 +27,8 @@ import { NavComponent } from './components/nav/nav.component'
     MatToolbarModule,
     MatIconModule,
     MatSidenavModule,
-    MatButtonModule
+    MatButtonModule,
+    MatSortModule
   ],
   providers: [],
   bootstrap: [AppComponent]
