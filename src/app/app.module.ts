@@ -10,15 +10,19 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatButtonModule } from '@angular/material/button';
 import { MatSortModule } from '@angular/material/sort';
+import { MatListModule } from '@angular/material/list';
 
 import { HeaderComponent } from '../app/components/header/header.component';
 import { NavComponent } from './components/nav/nav.component'
+import {MatCardModule} from '@angular/material/card';
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    NavComponent
+    NavComponent,
   ],
   imports: [
     BrowserModule,
@@ -28,7 +32,11 @@ import { NavComponent } from './components/nav/nav.component'
     MatIconModule,
     MatSidenavModule,
     MatButtonModule,
-    MatSortModule
+    MatSortModule,
+    MatListModule,
+    MatCardModule,
+    MatTableModule,
+    MatPaginatorModule
   ],
   providers: [],
   bootstrap: [AppComponent]

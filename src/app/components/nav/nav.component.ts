@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavComponent implements OnInit {
 
+  ingredients: string[] = ["Orange", "Potato", "Apple"];
+
   constructor() { }
 
   ngOnInit(): void {
