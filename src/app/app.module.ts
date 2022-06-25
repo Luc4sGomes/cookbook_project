@@ -4,35 +4,25 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { LoginComponent } from './components/login/login.component';
+import { CookingsComponent } from './components/cookings/cookings.component';
+import { AboutUsComponent } from './components/about-us/about-us.component';
 
-import { HeaderComponent } from '../app/components/header/header.component';
-import { NavComponent } from './components/nav/nav.component'
 
-import { MatToolbarModule } from '@angular/material/toolbar';
-import { MatIconModule } from '@angular/material/icon';
-import { MatSidenavModule } from '@angular/material/sidenav';
-import { MatButtonModule } from '@angular/material/button';
-import { MatSortModule } from '@angular/material/sort';
-import { MatListModule } from '@angular/material/list';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
-    NavComponent,
+    LoginComponent,
+    CookingsComponent,
+    AboutUsComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatToolbarModule,
-    MatIconModule,
-    MatSidenavModule,
-    MatButtonModule,
-    MatSortModule,
-    MatListModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
