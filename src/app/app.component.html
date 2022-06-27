@@ -1,14 +1,47 @@
-<nav>
-  <div class="nav-wrapper">
-    <a [routerLink]="['/']" class="brand-logo"><i class="material-icons cake-logo">cake</i></a>
-    <ul id="nav-mobile" class="right hide-on-med-and-down">
-      <li><a [routerLink]="['/']">Login</a></li>
-      <li><a [routerLink]="['/cookings']">Cookings</a></li>
-      <li><a [routerLink]="['/aboutus']">About us</a></li>
-    </ul>
-  </div>
-</nav>
+<header>
+  <nav>
+    <div class="nav-wrapper">
+      <a [routerLink]="['/']" class="brand-logo"
+        ><i class="material-icons cake-logo">cake</i></a
+      >
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a [routerLink]="['/']">Login</a></li>
+        <li><a [routerLink]="['/cookings']">Cookings</a></li>
+        <li><a [routerLink]="['/aboutus']">About us</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
 
-<div class="container">
-  <router-outlet></router-outlet>
-</div>
+<main>
+  <div class="container">
+    <router-outlet></router-outlet>
+  </div>
+</main>
+
+<footer>
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <p class="grey-text text-lighten-4">
+            All rights confined to the owners of the cookbook website
+          </p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Links</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="https://www.instagram.com/lucas_gomelo/">My Instagram </a></li>
+            <li><a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/lucas-gomes-a640601a1/">My Linkedln </a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        © 2022 Ltda. CookBook
+        <a class="grey-text text-lighten-4 right" href="#!"><i class="material-icons">person</i></a>
+      </div>
+    </div>
+  </footer>
+</footer>
